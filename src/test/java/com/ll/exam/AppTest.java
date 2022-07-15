@@ -82,4 +82,24 @@ public class AppTest {
         al.removeAt(1);
         assertEquals(300, al.get(1));
     }
+
+    @Test
+    void 최초에_배열의_크기는_2_이다() {
+        ArrayList al = new ArrayList();
+
+        assertEquals(2, al.getArrayLength());
+
+    }
+
+    @Test
+    void 배열이_차면_2배() {
+        ArrayList al = new ArrayList();
+        al.add(100);
+        al.add(200);
+
+        assertEquals(2, al.getArrayLength());
+        al.add(300);
+        assertEquals(4, al.getArrayLength());
+
+    }
 }
