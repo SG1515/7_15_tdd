@@ -13,6 +13,7 @@ public class ArrayList {
 
 
     public void add(int data) {
+        size++;
     }
 
     public int get(int index) {

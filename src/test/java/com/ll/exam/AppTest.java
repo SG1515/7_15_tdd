@@ -30,4 +30,16 @@ public class AppTest {
 
         assertEquals(100, rs);
     }
+    @Test
+    void add_한번_할_때_마다_사이즈_증가() {
+        ArrayList al = new ArrayList();
+        al.add(100);
+        al.add(200);
+        al.add(300);
+
+
+        assertEquals(3, al.size());
+    }
+
+
 }
