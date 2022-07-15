@@ -11,11 +11,5 @@ public class ArrayList {
         return size;
     }
 
-    public void add(int data) {
-        size++;
-    }
 
-    public int get(int index){
-        return 100;
-    }
 }
