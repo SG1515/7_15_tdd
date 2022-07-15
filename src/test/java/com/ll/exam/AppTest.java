@@ -102,4 +102,15 @@ public class AppTest {
         assertEquals(4, al.getArrayLength());
 
     }
+
+    @Test
+    void showAllValues() {
+        ArrayList al = new ArrayList();
+
+        al.add(100);
+        al.add(200);
+        al.add(300);
+
+        al.showAllValues();
+    }
 }
