@@ -1,10 +1,13 @@
 package com.ll.exam;
 
 public class ArrayList {
+
     private int size;
+    private int[] datum;
 
     public ArrayList() {
         size = 0;
+        datum = new int[100];
     }
 
     public int size() {
@@ -13,11 +16,12 @@ public class ArrayList {
 
 
     public void add(int data) {
+        datum[size] = data; //size를 증가시키면서 데이터를 넣는다.
         size++;
     }
 
     public int get(int index) {
-        return 100;
+        return datum[index];
     }
 
 }

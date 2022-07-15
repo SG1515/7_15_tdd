@@ -37,9 +37,17 @@ public class AppTest {
         al.add(200);
         al.add(300);
 
-::
         assertEquals(3, al.size());
     }
+    @Test
+    void get_1_equals_200() {
+        ArrayList al = new ArrayList();
+        al.add(100);
+        al.add(200);
+        al.add(300);
+        int rs = al.get(1);
 
+        assertEquals(200, rs);
+    }
 
 }
