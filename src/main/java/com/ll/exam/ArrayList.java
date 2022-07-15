@@ -12,4 +12,11 @@ public class ArrayList {
     }
 
 
+    public void add(int data) {
+    }
+
+    public int get(int index) {
+        return 100;
+    }
+
 }
