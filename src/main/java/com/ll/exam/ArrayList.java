@@ -24,4 +24,7 @@ public class ArrayList {
         return datum[index];
     }
 
+    public void removeAt(int index) {
+        --size;
+    }
 }
